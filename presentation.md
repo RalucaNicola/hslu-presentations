@@ -1,9 +1,9 @@
 <img src="./images/globe.png" class="plain" style="max-height: 400px"/>
 <p style="font-size: 75%"><br/>
-  [Raluca Nicola](https://raluca-nicola.net/) - Cartographer at Esri (currently on sabbatical)
+  Raluca Nicola - Product Engineer ArcGIS API for JavaScript
 </p>
 <p><br/><small>
-Digital Ideation, Hochschule Luzern - November 10, 2021
+Digital Ideation, Hochschule Luzern - November 4, 2020
 </small></p>
 
 ---
@@ -13,6 +13,14 @@ Digital Ideation, Hochschule Luzern - November 10, 2021
   <div>
     <iframe data-src="./samples/locations_en.html" ></iframe>
   </div>
+
+---
+
+### [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/)
+
+Library for visualizing geospatial data in 2D and 3D on the web
+
+<img src="./images/api-sdk.png" style="max-width: 50%"/>
 
 ---
 
@@ -32,6 +40,9 @@ Digital Ideation, Hochschule Luzern - November 10, 2021
   - Idea > Data > Design > Implement > Test > Share
 
 1. Examples
+  - Location maps
+  - Data-driven maps
+  - Artistic maps
 
 ---
 
@@ -102,62 +113,107 @@ Digital Ideation, Hochschule Luzern - November 10, 2021
 
 ---
 
-## Examples
-
-1. Map of outdoor activites - [Live](https://hike-visualization.netlify.app/) - [Blog](https://www.esri.com/arcgis-blog/products/js-api-arcgis/developers/map-your-outdoor-activities/)
-1. Personal mobility map - [Live](https://dbabbs.github.io/mobility-map/) - [Blog](https://dylanbabbs.com/projects/mobility-map)
-1. Personal experiences map - [Live](https://moriartynaps.org/maps-of-home/)
-1. Election map of USA - [Live](http://try-to-impeach-this.jetpack.ai/) - [Blog](https://www.karim.news/project/try-to-impeach-trhis)
-1. Election map of Romania - [Live](https://raluca-nicola.net/romania-elections/eu-parliament-2019/) - [Blog](https://raluca-nicola.net/colors-of-romania)
-1. Covid Pulse - [Live](https://livingatlas.arcgis.com/covidpulse/#@=-77.314,38.88,8&grid=0&trendCategories=1&trendType=0&sort=0) - [Blog](https://www.esri.com/arcgis-blog/products/arcgis-living-atlas/mapping/covidpulse-update-grid-view/)
-1. Map of homeless relocation in the USA - [Live](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study) - [Blog](https://www.visualcinnamon.com/portfolio/bussed-out/)
-1. Educational map - [Live](https://ralucanicola.github.io/the-globe-of-extremes/) - [Blog](https://www.esri.com/arcgis-blog/products/js-api-arcgis/3d-gis/interactive-3d-globe/)
-1. Touristic map - [Live](https://ralucanicola.github.io/ski-resort-map/) - [Blog](https://www.esri.com/arcgis-blog/products/js-api-arcgis/3d-gis/low-poly-ski-resort-map-1/)
-1. Hand-drawn architecture - [Live](https://ralucanicola.github.io/campus-map/hand-drawn/) - [Blog](https://storymaps.arcgis.com/stories/8692e3a5c1c049ae8727e4a218eac928)
+## Examples - location maps
 
 ---
 
-## Inspiration
+### Globe of extremes
 
-<div class="two-columns">
-<div class="half-column">
-- Andy Woodruff - [Portfolio](https://andywoodruff.com/)
-</br>
-- Dylan Babbs - [Portfolio](https://dylanbabbs.com/)
-</br>
-- Karim Douieb - [Portfolio](https://www.karim.news/)
-</br>
-- Nadieh Bremer - [Portfolio](https://www.visualcinnamon.com/portfolio/)
-</br>
-- John Nelson - [Blog](https://adventuresinmapping.com/), [Youtube](https://www.youtube.com/channel/UCpdwmy5JTFNUkKknxHH9Dsg)
-</br>
-- Joshua Stevens - [Blog](https://www.joshuastevens.net/)
-</br>
-- Sarah Bell - [Blog](https://www.sarahbellmaps.com/)
+<div>
+  <iframe data-src="https://ralucanicola.github.io/the-globe-of-extremes/"  style="max-width:80%"></iframe>
 </div>
-<div class="half-column">
-- Warren Davison - [Portfolio](https://warrenrdavison.wixsite.com/maps)
-</br>
-- Jonah Adkins - [Portfolio](https://www.jonahadkins.com/projects/)
-</br>
-- Eleanor Lutz - [Portfolio](https://eleanorlutz.com/)
-</br>
-- Daniel Coe - [Portfolio](https://dancoecarto.com/)
-</br>
-- Dylan Moriarty - [Blog](https://moriartynaps.org/)
-</br>
-- Mike Hall - [Portfolio](https://www.thisismikehall.com/)
-</br>
-- Daniel Huffman - [Portfolio](https://somethingaboutmaps.com/Portfolio)
+
+---
+
+### Hiking map
+
+<div>
+  <iframe data-src="https://esri.github.io/hiking-trails-app/"></iframe>
 </div>
+
+---
+
+## Examples - data-driven maps
+
+---
+
+### Proportional symbols map
+
+<iframe data-src="https://ralucanicola.github.io/earthquakes-viz/" style="max-width:80%"></iframe>
+
+---
+
+### Multivariate map
+
+<div>
+  <iframe style="max-width:80%" data-src="https://raluca-nicola.net/romania-elections/eu-parliament-2019/"></iframe>
 </div>
+
+---
+
+### Isarithmic map - contour map
+
+<div>
+  <iframe style="max-width:80%;" data-src="https://ralucanicola.github.io/JSAPI_demos/fire-emergency-calls/"></iframe>
+</div>
+
+---
+
+### Choropleth map
+
+<div>
+  <iframe style="max-width:80%; background-color:white;" data-src="https://ralucanicola.github.io/JSAPI_demos/usa-population/"></iframe>
+</div>
+
+---
+
+## Examples - artistic maps
+
+---
+
+### Sketching buildings of San Francisco
+
+<div>
+  <iframe data-src="https://ralucanicola.github.io/JSAPI_demos/sanfranart/"></iframe>
+</div>
+
+---
+
+### Ski resort map
+
+<div>
+  <iframe data-src="https://ralucanicola.github.io/ski-resort-map/"></iframe>
+</div>
+
+---
+
+### More low poly maps: [Switzerland](https://ralucanicola.github.io/JSAPI_demos/low-poly-switzerland/) and [A World Map](https://ralucanicola.github.io/JSAPI_demos/low-poly-world/)
+
+<img src="./images/low-poly.png"/>
+
+---
+
+### Ridgeline plots in 3D
+
+<div>
+  <iframe data-src="https://ralucanicola.github.io/JSAPI_demos/ridgeline-3D/"></iframe>
+</div>
+
+---
+
+### Hands-on demo - [https://my-travels.glitch.me/](https://my-travels.glitch.me/)
+
+<img src="./images/hands-on.png" style="max-width:70%"/>
 
 ---
 
 ## Questions? 🤔
 
 <p><br/><small>
-📧 ralucagnicola@gmail.com
+🐦 @nicolaraluk
+<br/>
+<br/>
+📧 rnicola@esri.com
 </small></p>
 
 
